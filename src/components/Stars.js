@@ -8,12 +8,6 @@ class Stars extends React.Component {
     currRating: 0,
   }
 
-  // onHover = ({ target }) => {
-  //   if (target.className === 'star') {
-  //     this.setRating(target.dataset.value);
-  //   }
-  // }
-
   onClick = ({ target }) => {
     const { dataset: { value } } = target;
     const { currRating } = this.state;
